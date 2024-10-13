@@ -4,15 +4,40 @@ body {
     background-color:#FFFFFF ;
 
 }
-ul { list-style: none;
+p,
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
+
+ul { list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+   
 }
 a {text-decoration: none;
 
 }
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: solid #2e2f42;
+    display: flex;
+
 }
+.heder-container{
+    display: flex;
+    align-items: center;
+}
+
 .hedear-navigation {
+    display: flex;
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -22,6 +47,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 100px;
 }
 .header-logo-color {
     color: #2e2f42; 
@@ -31,6 +57,9 @@ color: #4d5ae5;
     color:#404bbf;}
 
 .header-menu-list {
+    display: flex;
+    gap: 40px;
+
 }
 .header-menu-item {
     font-weight: 500;
@@ -38,6 +67,7 @@ color: #4d5ae5;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+ 
 
 }
 .header-menu-link {
@@ -46,6 +76,7 @@ color: #4d5ae5;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   
 }
 .header-menu-link:hover, 
 .header-menu-link:focus{
@@ -57,6 +88,14 @@ color: #4d5ae5;
 }  */
 .adrs-s{
     font-style: normal;
+    display: flex;
+    margin-left: auto;
+}
+.adrs-contact-list{
+   
+    display: flex;
+    gap: 40px;
+    
 }
 
 .adrs-contact-link {
@@ -65,11 +104,22 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
- 
+ margin: auto;
 }
 .adrs-contact-link:hover, 
 .adrs-contact-link:focus{
     color:#404bbf;}
+   
+    .container{
+        width: 1158px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+    .container-nev{
+
+
+    }
 
     .hero {
        background-color: #2e2f42;;
@@ -82,6 +132,9 @@ color: #434455;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        padding-bottom: 48px;
+        padding-top: 188px;
+
     }
     .cection-hero-btn {
         background-color: #4D5AE5;
@@ -91,13 +144,17 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+
+
     }
     .cection-hero-btn:hover,
     .cection-hero-btn:focus{
         background-color: #404BBF;}
 
         .features {
-            background-color: #F4F4FD;
+            padding-top: 120px;
+            padding-bottom: 120px;
+        
         }
 .visually-hidden {
         
@@ -109,7 +166,12 @@ cursor: pointer;
         overflow: hidden;
       }
         .features-list {
+            display: flex;
+            gap: 24px;
+        
         }
+
+        
         .features-item {
         }
      .features-subtitle {
@@ -118,6 +180,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
         }
         
 .features-item-text {
@@ -126,10 +189,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+margin-top: 8px;
         }
       
-        .taste {
-            background-color: #F4F4FD
+ .taste {
+            background-color: cloud;
+            padding-top: 120px;
+           
+           
         }
         .taste-title {
             text-transform: capitalize;
@@ -142,12 +209,17 @@ color: #2e2f42;
         }
        
         .taste-list {
+        
+            display: flex;
+            margin-right: 24px;
            
          
         }
         .taste-item {
             background-color: #FFFFFF; 
-        }
+            border-bottom: 1px solid rgb(224, 228, 230);
+        padding: 0 16px 32px 16px;}
+
         .taste-item-img {
         }
         .taste-subtitle {
@@ -170,6 +242,7 @@ color: #434455;
       
 
         .portfol {
+           
         }
         .portfol-title {
             text-transform: capitalize;
@@ -179,11 +252,22 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+padding-top: 112px;
+padding-bottom: 72px;
+
+
         }
         
         .portfol-list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 14px;
+            row-gap: 38px;
+            flex-basis: calc(100%-2*24)/3;
         }
-        .portfol-item {
+        .portfol-item { 
+           
+            border: 1px solid rgb(224, 228, 230);
         }
         .portfol-subtitle {
             font-weight: 500;
@@ -203,6 +287,7 @@ color: #434455;
        
 .footer {
 background-color: #2e2f42;
+
         }
  .footer-logo {
  font-family: "Raleway", sans-serif;
