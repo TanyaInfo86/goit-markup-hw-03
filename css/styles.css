@@ -31,14 +31,14 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
-   
+    border-bottom: 1px solid #e7e9f;
    
 
 }
 .heder-container{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9f;
+   
     padding: 0 15px;
 }
 
@@ -67,7 +67,7 @@ margin-right: 76px;
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
+    padding: 24px 0;
 
 }
 .header-menu-item {
@@ -125,11 +125,12 @@ color: #434455;
         padding-left: 10px;
         padding-right: 10px;
         margin: 0 auto;
-        padding: 32px 16px;
+        padding: 0 15px;
+        border-bottom: 1px solid #e7e9f;
+        padding: 32px 0;
     }
     .container-nev{
-        padding: 32px 0 ;
-        padding: 32px 16px;
+    
 
     }
 
@@ -176,9 +177,14 @@ border-radius: 4px;
         
         }
 .visually-hidden {            
-     white-space: nowrap;
+    position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; 
+    /*---white-space: nowrap;
         clip-path: inset(100%);
-        clip: rect(0 0 0 0);
+        clip: rect(0 0 0 0);---*/
         overflow: hidden;
       }
         .features-list {
@@ -233,6 +239,8 @@ margin-bottom: 72px;
             margin-right: 24px;
             gap: 24px;
             margin-bottom: 72px;
+            flex-basis: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px; 
            
          
         }
@@ -240,8 +248,7 @@ margin-bottom: 72px;
             background-color: #FFFFFF; 
             border-bottom: 1px solid rgb(224, 228, 230);
         padding: 0 16px 32px 16px;}
-        flex-basis: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px; 
+        
 
         .taste-item-img {
             display: block;
@@ -290,13 +297,14 @@ padding-bottom: 72px;
             column-gap: 24px;
             row-gap: 48px;
             width: calc((100% - 48px) / 3);
+            border: 1px solid #e7e9fc;
         }
-        .sam-item :nth-last-child(3){
+       /*-- .sam-item :nth-last-child(3){
             margin-right: 0;
             margin-bottom: 0 ;
             
         }
-        
+        */
         .portfol-item { 
             display: block;
            
