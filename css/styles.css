@@ -44,8 +44,7 @@ img{
 .hedear-navigation {
     display: flex;
     align-items: center; 
-    padding-top: 24px; 
-    padding-bottom: 24px;
+   
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -67,6 +66,8 @@ margin-right: 76px;
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px; 
+    padding-bottom: 24px;
    
 
 }
@@ -196,7 +197,7 @@ border-radius: 4px;
 
         
         .features-item {
-            flex-basis: calc((100% - 72px) / 4);
+            width: calc((100% - 72px) / 4);
         }
      .features-subtitle {
             font-weight: 500;
