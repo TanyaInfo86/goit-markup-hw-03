@@ -55,6 +55,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 margin-right: 76px;
+padding-top: 24px; 
+padding-bottom: 24px;
 }
 .header-logo-color {
     color: #2e2f42; 
@@ -66,8 +68,7 @@ margin-right: 76px;
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px; 
-    padding-bottom: 24px;
+   
    
 
 }
@@ -131,7 +132,7 @@ color: #434455;
 
     .container-nev{
     
-
+        padding: 32px 0;
     }
 
     .hero {
@@ -189,7 +190,7 @@ border-radius: 4px;
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
-      }
+    
         .features-list {
             display: flex;
             gap: 24px;
@@ -242,12 +243,13 @@ margin-bottom: 72px;
             margin-right: 24px;
             gap: 24px;
             margin-bottom: 72px;
-            flex-basis: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px; 
+            
            
          
         }
         .taste-item {
+            width: calc((100% - 72px) / 4);
+            border-radius: 0px 0px 4px 4px; 
             background-color: #FFFFFF; 
             border-bottom: 1px solid rgb(224, 228, 230);
         padding: 0 16px 32px 16px;}
