@@ -301,13 +301,14 @@ padding-bottom: 72px;
             row-gap: 48px;
             padding: 32px 16px;
             border: 1px solid #e7e9fc; 
+          
+            width: calc((100%-48px)/3); 
         }
       
         .portfol-item { 
             display: block;
             padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            width: calc((100%-48px)/3); 
+           
            
         }
         .portfol-subtitle {
@@ -317,7 +318,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
-margin-bottom: 72px;
+
         }
         
         .portfol-text {
