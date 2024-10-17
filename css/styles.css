@@ -45,6 +45,7 @@ img{
 .container-nev{
 
     padding: 32px 0;
+    margin-bottom: 72px
 }
 .heder-container{
     display: flex;
@@ -305,10 +306,14 @@ padding-bottom: 72px;
         .portfol-item { 
             display: block;
             padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            width: calc((100%-48px)/3); 
+           width: calc((100%-2*24)/3);
            
         }
+       .container-nev-port{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        margin-bottom: 8px;}
+    
         .portfol-subtitle {
             font-weight: 500;
 font-size: 20px;
