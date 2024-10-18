@@ -28,9 +28,7 @@ img{
     display: block;
 }
 .header {
-   
-   
-    border-bottom: 1px solid #e7e9fc
+       border-bottom: 1px solid #e7e9fc
    
 
 }
@@ -178,7 +176,6 @@ margin-right: auto;
         
         }         
     .visually-hidden {
-        .visually-hidden {
             position: absolute;
             width: 1px;
             height: 1px;
@@ -222,7 +219,7 @@ margin-top: 8px;
  .taste {
             background-color: #f4f4fd;;
             padding-top: 120px;
-            padding-bottom: 120px;)
+            padding-bottom: 120px;
            
         }
         .taste-title {
@@ -249,7 +246,7 @@ margin-bottom: 72px;
             width: calc((100% - 72px) / 4);
             border-radius: 0px 0px 4px 4px; 
             background-color: #fdf4fd; 
-            border-bottom: 1px solid rgb(224, 228, 230);
+            border-bottom: 1px solid rgb(224, 228, 230);}
         
 
         .taste-item-img {
